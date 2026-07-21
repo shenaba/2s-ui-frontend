@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v7.0.0
+        uses: actions/checkout@v7.0.1
 
       # Node 25 matches NODE_VERSION in the panel repo's release.yml, which is
       # what actually builds the dist that ships.
